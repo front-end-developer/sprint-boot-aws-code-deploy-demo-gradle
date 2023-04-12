@@ -1,5 +1,4 @@
 version: 0.2
-
 phases:
   install:
     runtime-versions:
@@ -15,5 +14,4 @@ artifacts:
     - build/libs/*.jar
     - scripts/*.sh
     - appspec.yml
-  # com/mycompany/app/HelloWorld.java, specifying yes will place this file in /HelloWorld.java
   discard-paths: yes
